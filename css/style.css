@@ -1,0 +1,51 @@
+#main img {
+  width: 100%;
+  height: auto;
+}
+
+.links {
+  height: 40%;  
+}
+
+.position {
+  height: 20%;
+  background-color: black;
+}
+
+.profile-nav {
+  height: 40%;
+}
+
+@media screen and (max-width: 767px) {
+  .links {
+    height: 100px;
+  }
+
+  .position {
+    height: 50px;
+  }
+
+  .profile-nav {
+    height: 100px;
+  }
+}
+
+.download {
+  height: 100px;
+  background-color: dark;
+}
+
+.skills {
+  /* background-color: white; */
+  color: black;
+  margin-left: 0%;
+}
+
+.progress-bar {
+  color: black;  
+  font-size: medium;  
+  font-weight: bold;
+}
+
+
+
